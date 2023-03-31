@@ -1,6 +1,6 @@
-FROM python:3.8
+FROM python:alpine
 
-WORKDIR app
+WORKDIR /app
 
 COPY . /app
 
@@ -8,4 +8,4 @@ RUN  pip install -r requirements.txt
 
 EXPOSE 8000
 
-CMD [ "python3", "flaskee.py"]
+ENTRYPOINT FLASK_APP=/app/flaskapp.py flask run --host=0.0.0.0 --port=8000
