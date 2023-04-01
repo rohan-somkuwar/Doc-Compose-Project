@@ -1,7 +1,9 @@
 # Doc-Kube-Project
 
 #Image
-Create an Image 
+
+    Creat an Image
+    
 ``
 docker build . -t my-app
 ``
