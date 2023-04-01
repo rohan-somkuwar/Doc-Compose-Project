@@ -1,9 +1,10 @@
 # Doc-Kube-Project
 
-create an image 
-
-"docker build . -t my-app"
-
+#Image
+Create an Image 
+``
+docker build . -t my-app
+``
 creating an container
 
 "docker run -d --name my-app-ctr -p 8000:800 my-app:latest"
