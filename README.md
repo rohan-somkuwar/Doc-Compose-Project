@@ -4,15 +4,15 @@
 
 Creat an Image
     
-``
+
     docker build . -t my-app
-``
+
 
 Creating an Container
 
-``
+
     docker run -d --name my-app-ctr -p 8000:800 my-app:latest
-``
+
 
     -d : deamon that run on background
     --name: give container name
