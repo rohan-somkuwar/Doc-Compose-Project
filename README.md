@@ -27,4 +27,4 @@ Docker compose is a tool defining and running multi-container Docker application
 
     docker-compose up
     docker-compose down
-Website ..
+Website 
