@@ -28,3 +28,8 @@ Docker compose is a tool defining and running multi-container Docker application
     docker-compose up
     docker-compose down
 website
+
+
+'
+pip install -r requirements.txt
+'
