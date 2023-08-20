@@ -30,8 +30,8 @@ Docker compose is a tool defining and running multi-container Docker application
 website
 
 
-'
+
 
     pip install -r requirements.txt
     
-'
+
